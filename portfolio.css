@@ -1,0 +1,45 @@
+body {
+
+	background-color: white;
+	font: bold 1em "Century Gothic", Century Gothic;
+	border: solid 3px black;
+	text-align: center;
+
+	 }
+
+header{
+
+	background: url('lebenon.jpg') no-repeat top center;
+	background-size: cover;
+	overflow: hidden;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.image-profile {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid black;
+  transition: all .5s;
+
+}
+
+.image-profile:hover {
+  transform: scale(1.1) rotate(720deg);
+}
+
+.body-cont {
+
+	border: solid 2px white;
+	background-color: black;
+	color: white;
+
+}
+
+.profile-motto {
+		text-shadow: 2px 2px 6px #000;
+		color: white;
+		font: italic bold 1.3em "Times New Roman", Times, serif;
+}
