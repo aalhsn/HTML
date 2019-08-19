@@ -1,36 +1,35 @@
 body{
 	margin: 0;
 	padding: 0;
+	z-index: 1;
+	background:  #283b49;
 }
 
 div {
 	width: 100%;
 	height: 100vh;
 	display: flex;
+	overflow: hidden;
 	align-items: center;
-	justify-content: center;
-
-
+	z-index: 1;
 }
 
-h1 {
 
-	color:#333333 ;
-	background-color: white;
-	border: #32ab69 solid 15px;
-	font: bold 5em 'Courier';
-	padding: 20px;
+.centered {
+	justify-content: center;
+}
 
+.myname {
+	font-size: 3em;
 }
 
 
 
 .display_pic {
 
-	height: 20%;
+	height: 30%;
 	width: auto;
 	border-radius: 20%;
-	transition: all 1s;
 	margin-bottom: 1.5em;
 	box-shadow: 0 8px 6px -6px black;
 }
@@ -41,62 +40,44 @@ h1 {
 
 	margin: 0 1.5em 0;
 	padding: 0;
-	text-align: center;
-	font-family: 'Courier';
+	text-align: left;
+	font-family: 'Times';
 	font-style: bold;
-	font-size: 5em;
+	font-size: 3em;
 	color: #262626;
 	background: #fff;
 	padding: 10px;
 	box-shadow: 0 8px 6px -6px black;
 }
 
-li, p {
+.para, .motto {
 
 
-	font-family: 'Courier'; 
-	font-size: 3em;
+	font-family: 'Times'; 
+	font-size: 1.4em;
 	margin: 0;
 	padding: 0;
-	color: #262626;
-	background: #fff;
+	color: #fff;
 	padding: 10px;
-	box-shadow: 0 8px 6px -6px black;
-	transition: all 2s;
+	text-align: left;
 }
 
-li {
 
-	margin-bottom: 10px;
-	padding-left: 15px;
-	padding-right: 15px;
-}
-
-p:hover {
-	transform: scale(1.3);
-	background: black;
-	color: white;
-	font-family: 'Times New Roman';
-
-}
-
-li:hover {
-	transform: scale(1.3) translateY(5px);
-	box-shadow: 0 8px 6px -6px black;
-}
 .motto {
 
-	font: italic 2em 'Times New Roman';
-	color: #262626;
+	font: italic 1.5em 'Times New Roman';
+	color: #283b49;
 	transition: all 1s;
 	margin: 50px;
+	text-align: center;
 }
 
 .motto:hover {
 	transform: scale(1.1);
 	color: white;
 	background-color: black;
-	transform: translateY(20px);
+	transform: translateY(-20px);
+	  box-shadow: 2px 2px 20px white;
 }
 
 .listtitle {
@@ -104,41 +85,63 @@ li:hover {
 	background: black;
 }
 
+.hoby li {
 
-div:nth-child(1) {
-	background:  #283b49;
+  display: inline;
 }
 
-div:nth-child(2) {
-
-background: url('lebenon.jpg') no-repeat top center;
-background-size: cover;
-
-}
-
-div:nth-child(3) {
-background: #35f218;
+.hoby li img {
+  width: 30%;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 20px;
 
 }
 
-div:nth-child(4) {
-background: #243cbf;
+.hoby {
+  text-align: center;
+}
+
+#contact {
+  box-shadow: inset 2px 2px 20px grey;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background: white;
+}
+
+#contact li {
+	display: inline;
+}
+
+#contact ul {
+	text-align: center;
+}
+.HL li img {
+	width: 5%;
+	margin-top: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 10px;
+}
+
+.sepa {
+  box-shadow: inset 2px 2px 10px grey;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background: white;
 
 }
 
-div:nth-child(5) {
-background: #f0a741;
+video {
+
+	margin-left: 200px;
 }
 
-div:nth-child(6) {
-
-background: #3fe89c;
-
+.h_i {
+	font-family: 'Times'; 
+	font-size: 1.7em;
+	color: #fff;
+	padding: 30px;
+	text-align: left;
 }
-
-div:nth-child(7) {
-
-background: #d62d2d;
-}
-
 
