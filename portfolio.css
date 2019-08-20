@@ -119,8 +119,8 @@ div {
 #contact ul {
 	text-align: center;
 }
-.HL li img {
-	width: 5%;
+.HL img {
+	height: 40px;
 	margin-top: 10px;
 	margin-left: 100px;
 	margin-right: 100px;
@@ -147,4 +147,5 @@ video {
 	padding: 30px;
 	text-align: left;
 }
+
 
