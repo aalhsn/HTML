@@ -3,47 +3,45 @@ body{
 	background:  #283b49;
 }
 
-div {
+div.section {
 	width: 100%;
-	height: 100vh;
-	display: flex;
+	min-height: 100vh;
+/*	display: flex;
 	overflow: hidden;
 	align-items: center;
-	z-index: 1;
+	z-index: 1;*/
 }
 
 #nbar a {
 
-	color: #fff;	
+	color: #34ac6c;
 }
 
 
-.centered {
-	justify-content: center;
+nav {
+	 box-shadow: 2px 2px 10px black;
 }
 
-.myname {
-	font-size: 3em;
-}
 
 
 
 .display_pic {
 
-	height: 30%;
+	height: 300px;
 	width: auto;
 	border-radius: 20%;
-	margin-bottom: 1.5em;
+	margin-bottom: 1.3em;
+	margin-top: 10em;
 	box-shadow: 0 8px 6px -6px black;
 }
 
 
 
- h2{
+ .title {
 
 	margin: 0 1.5em 0;
 	padding: 0;
-	text-align: left;
+	text-align: center;
 	font-family: 'Times';
 	font-style: bold;
 	font-size: 3em;
@@ -51,6 +49,8 @@ div {
 	background: #fff;
 	padding: 10px;
 	box-shadow: 0 8px 6px -6px black;
+	margin-bottom: 7%;
+	margin-top: 20%;
 }
 
 .para, .motto {
@@ -64,6 +64,7 @@ div {
 	padding: 10px;
 	text-align: left;
 }
+
 
 
 .motto {
@@ -84,8 +85,16 @@ div {
 }
 
 .listtitle {
-	color: white;
-	background: black;
+	/*padding: 0;*/
+	/*text-align: center;*/
+	/*transform: translate(800px,-300px);*/
+	font-family: 'Times';
+	font-style: bold;
+	font-size: 3em;
+	color: #262626;
+	background: #fff;
+	/*padding: 10px;*/
+	box-shadow: 0 8px 6px -6px black;
 }
 
 .hoby li {
@@ -93,17 +102,21 @@ div {
   display: inline;
 }
 
-.hoby li img {
-  width: 30%;
+.hoby img {
+  width: 23%;
   height: auto;
-  margin-top: 10px;
-  margin-left: 20px;
+  margin-left: 1%;
+  margin-top: 5%;
 
 }
 
 .hoby {
   text-align: center;
+  /*transform: translate(-600px,300px);*/
+  margin: 0;
+  padding: 0;
 }
+
 
 #contact {
   box-shadow: inset 2px 2px 20px grey;
@@ -129,23 +142,25 @@ div {
 
 .sepa {
   box-shadow: inset 2px 2px 10px grey;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-top: 50px;
   background: white;
 
 }
 
 video {
 
-	margin-left: 200px;
+	margin-top: 5%;
 }
 
 .h_i {
 	font-family: 'Times'; 
-	font-size: 1.7em;
+	font-size: 2em;
 	color: #fff;
-	padding: 30px;
-	text-align: left;
+	text-align: center;
+	padding: 0;
 }
 
-
+.h_i li {
+	display: inline;
+}
