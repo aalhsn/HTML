@@ -6,10 +6,6 @@ body{
 div.section {
 	width: 100%;
 	min-height: 100vh;
-/*	display: flex;
-	overflow: hidden;
-	align-items: center;
-	z-index: 1;*/
 }
 
 #nbar a {
@@ -35,7 +31,14 @@ nav {
 	box-shadow: 0 8px 6px -6px black;
 }
 
+.display_pic2 {
 
+	height: 150px;
+	width: auto;
+	border-radius: 50%;
+	margin-top: 10em;
+	border: solid 5px #34ac6c;
+}
 
  .title {
 
@@ -53,6 +56,18 @@ nav {
 	margin-top: 20%;
 }
 
+ .cont {
+
+	margin: 0 1.5em 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'Times';
+	font-style: italic;
+	font-size: 2em;
+	color: #262626;
+	margin-bottom: 1%;
+	margin-top: 20%;
+}
 .para, .motto {
 
 
